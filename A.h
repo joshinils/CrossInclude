@@ -1,21 +1,12 @@
-#ifndef A_H
-#define A_H
+#pragma once
 
-#include <iostream>
-//#include "B.h"
-//namespace beta
-//{
-//	class B;
-//}
-
-namespace alpha
+#include "B.h"
+class B;
+class A
 {
-	class A
-	{
-	public:
-		A();
+public:
+    A();
 
-		void A_foo();
-	};
-}
-#endif // A_H
+    typedef int alpha;
+    alpha member;
+};
